@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.shivam.dtu.typeofuser"
+    android:background="@drawable/add"
     >
 
     <LinearLayout
@@ -13,16 +14,6 @@
         android:orientation="vertical"
         android:layout_gravity="center">
 
-    <Button
-        android:id="@+id/admin"
-        android:layout_margin="20dp"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:background="@drawable/roundbuttonsimple"
-        android:text="ADMIN"
-        android:textStyle="italic"
-        android:textSize="50dp"
-        />
 
         <Button
 android:id="@+id/members"

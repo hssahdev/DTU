@@ -15,7 +15,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -23,7 +23,7 @@
         <activity
             android:name=".guestpage"
             android:label="@string/title_activity_guestpage"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -50,7 +50,30 @@
         <activity
             android:name=".admin"
             android:label="@string/title_activity_admin"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-    </application>
+             />
+
+        <activity
+            android:name=".FirstActivity"
+            android:label="MEMBERS"
+            />
+        <activity
+            android:name=".FitnessActivity"
+            android:label="MEMBERS"
+             />
+        <activity
+            android:name=".GoalActivity"
+            android:label="MEMBERS"
+             />
+        <activity
+            android:name=".LoginActivity"
+            android:label="MEMBERS"
+            />
+        <activity
+            android:name=".SignupEntryActivity"
+            android:label="MEMBERS"
+            />
+
+
+</application>
 
 </manifest>

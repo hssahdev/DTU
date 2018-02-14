@@ -13,20 +13,15 @@ public class typeofuser extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_typeofuser);
 
-        Button admin,members,guest;
-        admin=findViewById(R.id.admin);
-        admin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        Button members,guest;
 
-            }
-        });
 
         members=findViewById(R.id.members);
         members.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent i=new Intent(typeofuser.this,FirstActivity.class);
+                startActivity(i);
             }
         });
 

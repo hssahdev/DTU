@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivam.dtu.guestpackages"
+    android:orientation="vertical"
+    android:background="@drawable/back2">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="PACKAGES"
+           android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textSize="50dp"
+           android:background="#f2f2f2"/>
+
+       <Button
+           android:id="@+id/home"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="HOME"
+           android:layout_gravity="right"/>
+   </LinearLayout>
+
+
+
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#c6bebe">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="CONTACT\n      US:"
+    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+    android:textStyle="bold"
+    android:background="#f2f2f2"/>
+
+        <Button
+            android:id="@+id/phone"
+            android:layout_margin="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:background="@drawable/phone"/>
+
+        <Button
+            android:id="@+id/email"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/email"/>
+
+        <Button
+            android:id="@+id/msg"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/msg"/>
+
+        <Button
+            android:id="@+id/whatsapp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/whatsapp"/>
+
+        <Button
+            android:id="@+id/fb"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fb"/>
+
+
+
+    </LinearLayout>
+
+</HorizontalScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        
+        <Button
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="@drawable/roundbutton"
+            android:text="GOLD PACKAGE\n\n Time:6 MONTHS\n PRICE:30,000rs/- \n TRAINER: Mr rahul sharma\n                       ms.muskan  singal"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="@drawable/roundsilver"
+            android:text="sivler PACKAGE\n\n Time:4 MONTHS\n PRICE:20,000rs/- \n TRAINER: Mr kushal verma   \n                 ms manya dabar"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="@drawable/roundbronze"
+            android:text="bronze PACKAGE\n\n Time:3 MONTHS\n PRICE:15,000rs/- \n TRAINER: Mr adtiya sharma\n                      ms shivani rathod"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="@drawable/roundmonthly"
+            android:text="MONTHLY PACKAGE\n\n Time:1 MONTHS\n PRICE:8,000rs/- \n TRAINER: Mr archit sharma \n            ms mansi kaur"
+            android:textStyle="bold"/>
+        
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

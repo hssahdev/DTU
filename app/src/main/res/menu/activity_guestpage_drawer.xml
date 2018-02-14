@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/guestabout"
+            android:title="About" />
+        <item
+            android:id="@+id/Packages"
+            android:icon="@drawable/guestplans"
+            android:title="Workout packages" />
+
+        <item
+            android:id="@+id/Location"
+            android:icon="@drawable/guestlocation"
+            android:title="Location" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Chat"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Chat" />
+        </menu>
+    </item>
+
+</menu>
